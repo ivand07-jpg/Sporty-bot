@@ -1,9 +1,9 @@
-const TelegramBot = require("node-telegram-bot-api");
+const  = require("node-telegram-bot-api");
 const { createClient } = require("@supabase/supabase-js");
 
 // ── CONFIG ─────────────────────────────────────────────────────────────────
 const TOKEN = "8925561001:AAFyXqPClKaMp6ZQS1Pk-x5NKWgd2m_5Pag";
-const SUPABASE_URL = "https://ygrkpkazodvjwfnpvdtl.supabase.co";
+const _URL = "https://ygrkpkazodvjwfnpvdtl.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inlncmtwa2F6b2R2andmbnB2ZHRsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4MDMxOTgsImV4cCI6MjA5ODM3OTE5OH0.R6puWxfTYL1VFj6V8rLDp1Z5O5x-BHnKho7_7DUMiiM";
 
 const bot = new TelegramBot(TOKEN, { polling: true });
