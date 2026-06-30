@@ -1,0 +1,12 @@
+{
+  "name": "sporty-bot",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
